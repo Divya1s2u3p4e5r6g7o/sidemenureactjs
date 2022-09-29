@@ -227,6 +227,6378 @@ onClick={handleToggler}
 
 
         </div>
+        <div className='Content-Wrapper'>
+        <div className="tp-folders-wrapper">
+  <div className="tp-folders-title">
+    <h5
+      className="styles_title__2WFn_ styles_level5__ZwZhV dark-blue-1"
+      style={{ fontWeight: "bold" }}
+    >
+      Folders
+    </h5>
+  </div>
+  <div className="tp-folder-list">
+    <div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-581"
+                  data-testid="group-title-581"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  Untitled
+                </div>
+                <div>&nbsp;(0)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          />
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-580"
+                  data-testid="group-title-580"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  Untitled
+                </div>
+                <div>&nbsp;(0)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          />
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-579"
+                  data-testid="group-title-579"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  Untitled
+                </div>
+                <div>&nbsp;(0)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          />
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-573"
+                  data-testid="group-title-573"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  27092022
+                </div>
+                <div>&nbsp;(1)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(138, 245, 194)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        TEST 27092022
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-559"
+                  data-testid="group-title-559"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  folderg
+                </div>
+                <div>&nbsp;(1)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(64, 196, 255)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        folder06
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-553"
+                  data-testid="group-title-553"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  23092022
+                </div>
+                <div>&nbsp;(5)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        IA
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        AS Folder
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(248, 196, 150)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        GEM Folder 239
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(64, 196, 255)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        MP Folder 23
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        2 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(187, 89, 160)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        TG Folder 23
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        4 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-539"
+                  data-testid="group-title-539"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  16092022
+                </div>
+                <div>&nbsp;(2)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(246, 157, 166)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        TG Folder 1609
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(1, 166, 176)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        GEM Folder 169
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-538"
+                  data-testid="group-title-538"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  15092022
+                </div>
+                <div>&nbsp;(2)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(187, 89, 160)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        GEM
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        3 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(248, 196, 150)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        TG
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-521"
+                  data-testid="group-title-521"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  14092022
+                </div>
+                <div>&nbsp;(3)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(248, 196, 150)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        GEM
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        5 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <img
+                      src="https://duploservices-qa01-storage-014371893531.s3.us-west-2.amazonaws.com/course-folder-images/6ee415889d0086da30cf08a2d1adec5c.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDwJevVH1ttfA7iLKc0P%2B4tD6wgWvWVo3cAGyFt09t0xQIgRA9tpxz2CIMtP1fH9t3O%2B6qcvaAo53AxcGQ0SQ2hQdUqzAQIQhABGgwwMTQzNzE4OTM1MzEiDCdoaIQQ121uMrYETCqpBFsUOiL%2FoWTpL77Gv0vUMd1p4x8dtkS4FVFn25%2B0PNlxA8Zbu%2FnmwqcIWJBd2V49PL7RUf6WttoNMbMoiWdDATv7CFJzuQDLyi%2Fd12PD23JVpQjehuJakVwwSjk90QNYmdaqJCTIVmMg9YpvOVYZTd9SIRKIL8js7kkElzTJ%2FxOnI5R6hF8aQ4ljucZESsB7bLCCrTG3coWrUIYfXpErPheZcjawGJHWtpxRBSQtgMXJIrgWK5Ry3OB9tiVsNBbyc3Qr6Sy62GVYy0tumDwessCSMXCLlLqC67Aw44hRhHLFMdRGSmuIHEi1YVV1Y8WHVooyTJGSFR88NPlny8gwRLNy6izErwiHegGZCkBcecTI5XTF12UdcfUDGoo3owsJQXYK0G%2F%2B9m7t3ofBvnUAM%2FpfNetVvkp%2BgIk8JKGU%2BC9hxyOrOA6lsA8fT2R9pCjegeYk34ltG%2Fvmvrp1eVFeCjG0yx3L1SkpbO3nCHSXEeZrLHSq4G1LDESNU0StiRW2mbYply45ylnXggYgJ9HZ3Vwo4MrhPjaIKo9JPTM1dfmzAXD13dmgjUbjxcXO4ncViIgw6QbOciu4fI3nMIQ3QdNz5jq5ffDKxsMoRHQ15xxRRv9vXFBs%2B9Wn14CmaMQnsNKYqAbxSSoBByKcxG%2F6YmgdKd%2FJ2sFZuH2qY%2BUT4nVT6DE9tBMGe%2B4myeTSW6N%2BZjTjdh%2F3MHJVAQDW%2BXbNrfdoUcMXwQ5%2Bv3Mwqr3VmQY6qQE4Iud7h%2FFvgETzp0xhwyPPbCHOtoaAubxDs5NuwHS8CjDkXgkB6nyXqgmKOUSy13trEHnOZm92yB4GxCV7MmhwD9QLRUBlq4u5Hm06EjijnQFtYJlTMdtrVRfrXmY1%2BmyhvBEqoLUSfPHdYF9hyJHiOZy4x8Qb0NIx%2B%2BAn09bHWhqkGY979%2FB5R9nJGkqjOmaIld%2FpngQfQiKhPrmSFwpjLM%2BSxUe%2BSjq5&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGWFBWEN7UIG4VSQ%2F20220929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220929T093119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=b72bd598c5a05f03a8a2bd240210936c72a35e787cab945e14fca8c5a18bf3f8"
+                      alt="No image"
+                    />
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        AS
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        2 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <img
+                      src="https://duploservices-qa01-storage-014371893531.s3.us-west-2.amazonaws.com/course-folder-images/af966da354bdafe6022cda51a4cef1da.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDwJevVH1ttfA7iLKc0P%2B4tD6wgWvWVo3cAGyFt09t0xQIgRA9tpxz2CIMtP1fH9t3O%2B6qcvaAo53AxcGQ0SQ2hQdUqzAQIQhABGgwwMTQzNzE4OTM1MzEiDCdoaIQQ121uMrYETCqpBFsUOiL%2FoWTpL77Gv0vUMd1p4x8dtkS4FVFn25%2B0PNlxA8Zbu%2FnmwqcIWJBd2V49PL7RUf6WttoNMbMoiWdDATv7CFJzuQDLyi%2Fd12PD23JVpQjehuJakVwwSjk90QNYmdaqJCTIVmMg9YpvOVYZTd9SIRKIL8js7kkElzTJ%2FxOnI5R6hF8aQ4ljucZESsB7bLCCrTG3coWrUIYfXpErPheZcjawGJHWtpxRBSQtgMXJIrgWK5Ry3OB9tiVsNBbyc3Qr6Sy62GVYy0tumDwessCSMXCLlLqC67Aw44hRhHLFMdRGSmuIHEi1YVV1Y8WHVooyTJGSFR88NPlny8gwRLNy6izErwiHegGZCkBcecTI5XTF12UdcfUDGoo3owsJQXYK0G%2F%2B9m7t3ofBvnUAM%2FpfNetVvkp%2BgIk8JKGU%2BC9hxyOrOA6lsA8fT2R9pCjegeYk34ltG%2Fvmvrp1eVFeCjG0yx3L1SkpbO3nCHSXEeZrLHSq4G1LDESNU0StiRW2mbYply45ylnXggYgJ9HZ3Vwo4MrhPjaIKo9JPTM1dfmzAXD13dmgjUbjxcXO4ncViIgw6QbOciu4fI3nMIQ3QdNz5jq5ffDKxsMoRHQ15xxRRv9vXFBs%2B9Wn14CmaMQnsNKYqAbxSSoBByKcxG%2F6YmgdKd%2FJ2sFZuH2qY%2BUT4nVT6DE9tBMGe%2B4myeTSW6N%2BZjTjdh%2F3MHJVAQDW%2BXbNrfdoUcMXwQ5%2Bv3Mwqr3VmQY6qQE4Iud7h%2FFvgETzp0xhwyPPbCHOtoaAubxDs5NuwHS8CjDkXgkB6nyXqgmKOUSy13trEHnOZm92yB4GxCV7MmhwD9QLRUBlq4u5Hm06EjijnQFtYJlTMdtrVRfrXmY1%2BmyhvBEqoLUSfPHdYF9hyJHiOZy4x8Qb0NIx%2B%2BAn09bHWhqkGY979%2FB5R9nJGkqjOmaIld%2FpngQfQiKhPrmSFwpjLM%2BSxUe%2BSjq5&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGWFBWEN7UIG4VSQ%2F20220929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220929T093119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=c856ca566b2b6ac48f4f7b76a15b0d89ce4dca0002709611d0941160013c8aaf"
+                      alt="No image"
+                    />
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        SAS
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-348"
+                  data-testid="group-title-348"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  SDN
+                </div>
+                <div>&nbsp;(5)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Copy of Test Folder
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        3 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Copy of Test Folder
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        3 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Test Folder
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        3 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <img
+                      src="https://duploservices-qa01-storage-014371893531.s3.us-west-2.amazonaws.com/course-folder-images/492ddc32e23482101c78fb0357382a40.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDwJevVH1ttfA7iLKc0P%2B4tD6wgWvWVo3cAGyFt09t0xQIgRA9tpxz2CIMtP1fH9t3O%2B6qcvaAo53AxcGQ0SQ2hQdUqzAQIQhABGgwwMTQzNzE4OTM1MzEiDCdoaIQQ121uMrYETCqpBFsUOiL%2FoWTpL77Gv0vUMd1p4x8dtkS4FVFn25%2B0PNlxA8Zbu%2FnmwqcIWJBd2V49PL7RUf6WttoNMbMoiWdDATv7CFJzuQDLyi%2Fd12PD23JVpQjehuJakVwwSjk90QNYmdaqJCTIVmMg9YpvOVYZTd9SIRKIL8js7kkElzTJ%2FxOnI5R6hF8aQ4ljucZESsB7bLCCrTG3coWrUIYfXpErPheZcjawGJHWtpxRBSQtgMXJIrgWK5Ry3OB9tiVsNBbyc3Qr6Sy62GVYy0tumDwessCSMXCLlLqC67Aw44hRhHLFMdRGSmuIHEi1YVV1Y8WHVooyTJGSFR88NPlny8gwRLNy6izErwiHegGZCkBcecTI5XTF12UdcfUDGoo3owsJQXYK0G%2F%2B9m7t3ofBvnUAM%2FpfNetVvkp%2BgIk8JKGU%2BC9hxyOrOA6lsA8fT2R9pCjegeYk34ltG%2Fvmvrp1eVFeCjG0yx3L1SkpbO3nCHSXEeZrLHSq4G1LDESNU0StiRW2mbYply45ylnXggYgJ9HZ3Vwo4MrhPjaIKo9JPTM1dfmzAXD13dmgjUbjxcXO4ncViIgw6QbOciu4fI3nMIQ3QdNz5jq5ffDKxsMoRHQ15xxRRv9vXFBs%2B9Wn14CmaMQnsNKYqAbxSSoBByKcxG%2F6YmgdKd%2FJ2sFZuH2qY%2BUT4nVT6DE9tBMGe%2B4myeTSW6N%2BZjTjdh%2F3MHJVAQDW%2BXbNrfdoUcMXwQ5%2Bv3Mwqr3VmQY6qQE4Iud7h%2FFvgETzp0xhwyPPbCHOtoaAubxDs5NuwHS8CjDkXgkB6nyXqgmKOUSy13trEHnOZm92yB4GxCV7MmhwD9QLRUBlq4u5Hm06EjijnQFtYJlTMdtrVRfrXmY1%2BmyhvBEqoLUSfPHdYF9hyJHiOZy4x8Qb0NIx%2B%2BAn09bHWhqkGY979%2FB5R9nJGkqjOmaIld%2FpngQfQiKhPrmSFwpjLM%2BSxUe%2BSjq5&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGWFBWEN7UIG4VSQ%2F20220929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220929T093119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=d51a9f333a471f639a9b45e5c99d37f15b30763b87d754c9c7900ef7c2e38a64"
+                      alt="No image"
+                    />
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Bootstrap 5 with Image
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Bootstrap 5 with color
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-516"
+                  data-testid="group-title-516"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  MP 0709
+                </div>
+                <div>&nbsp;(2)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(246, 157, 166)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        MP Folder 0709
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        2 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <img
+                      src="https://duploservices-qa01-storage-014371893531.s3.us-west-2.amazonaws.com/course-folder-images/288df7a67c3b586363906a450629e538.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDwJevVH1ttfA7iLKc0P%2B4tD6wgWvWVo3cAGyFt09t0xQIgRA9tpxz2CIMtP1fH9t3O%2B6qcvaAo53AxcGQ0SQ2hQdUqzAQIQhABGgwwMTQzNzE4OTM1MzEiDCdoaIQQ121uMrYETCqpBFsUOiL%2FoWTpL77Gv0vUMd1p4x8dtkS4FVFn25%2B0PNlxA8Zbu%2FnmwqcIWJBd2V49PL7RUf6WttoNMbMoiWdDATv7CFJzuQDLyi%2Fd12PD23JVpQjehuJakVwwSjk90QNYmdaqJCTIVmMg9YpvOVYZTd9SIRKIL8js7kkElzTJ%2FxOnI5R6hF8aQ4ljucZESsB7bLCCrTG3coWrUIYfXpErPheZcjawGJHWtpxRBSQtgMXJIrgWK5Ry3OB9tiVsNBbyc3Qr6Sy62GVYy0tumDwessCSMXCLlLqC67Aw44hRhHLFMdRGSmuIHEi1YVV1Y8WHVooyTJGSFR88NPlny8gwRLNy6izErwiHegGZCkBcecTI5XTF12UdcfUDGoo3owsJQXYK0G%2F%2B9m7t3ofBvnUAM%2FpfNetVvkp%2BgIk8JKGU%2BC9hxyOrOA6lsA8fT2R9pCjegeYk34ltG%2Fvmvrp1eVFeCjG0yx3L1SkpbO3nCHSXEeZrLHSq4G1LDESNU0StiRW2mbYply45ylnXggYgJ9HZ3Vwo4MrhPjaIKo9JPTM1dfmzAXD13dmgjUbjxcXO4ncViIgw6QbOciu4fI3nMIQ3QdNz5jq5ffDKxsMoRHQ15xxRRv9vXFBs%2B9Wn14CmaMQnsNKYqAbxSSoBByKcxG%2F6YmgdKd%2FJ2sFZuH2qY%2BUT4nVT6DE9tBMGe%2B4myeTSW6N%2BZjTjdh%2F3MHJVAQDW%2BXbNrfdoUcMXwQ5%2Bv3Mwqr3VmQY6qQE4Iud7h%2FFvgETzp0xhwyPPbCHOtoaAubxDs5NuwHS8CjDkXgkB6nyXqgmKOUSy13trEHnOZm92yB4GxCV7MmhwD9QLRUBlq4u5Hm06EjijnQFtYJlTMdtrVRfrXmY1%2BmyhvBEqoLUSfPHdYF9hyJHiOZy4x8Qb0NIx%2B%2BAn09bHWhqkGY979%2FB5R9nJGkqjOmaIld%2FpngQfQiKhPrmSFwpjLM%2BSxUe%2BSjq5&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGWFBWEN7UIG4VSQ%2F20220929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220929T093119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=949334231dbcdd34d07daec4ff9cd93efb716e19d2e562e806f70e4d0b6870ca"
+                      alt="No image"
+                    />
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        MP 2 Folder 0709
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-347"
+                  data-testid="group-title-347"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  Test
+                </div>
+                <div>&nbsp;(1)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit--default">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Test Folder - 1386
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        2 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-353"
+                  data-testid="group-title-353"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  MP
+                </div>
+                <div>&nbsp;(9)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(187, 89, 160)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        jQ Folder 0709
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        2 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(248, 196, 150)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        jQuery Folder 07092022
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(1, 166, 176)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        jQ Folder 2
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(187, 89, 160)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        jQ Folder
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        2 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        jQ Folder With Color 3
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        2 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <img
+                      src="https://duploservices-qa01-storage-014371893531.s3.us-west-2.amazonaws.com/course-folder-images/585fd6e5ef7d84a0cfb1cc35bc07dfff.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDwJevVH1ttfA7iLKc0P%2B4tD6wgWvWVo3cAGyFt09t0xQIgRA9tpxz2CIMtP1fH9t3O%2B6qcvaAo53AxcGQ0SQ2hQdUqzAQIQhABGgwwMTQzNzE4OTM1MzEiDCdoaIQQ121uMrYETCqpBFsUOiL%2FoWTpL77Gv0vUMd1p4x8dtkS4FVFn25%2B0PNlxA8Zbu%2FnmwqcIWJBd2V49PL7RUf6WttoNMbMoiWdDATv7CFJzuQDLyi%2Fd12PD23JVpQjehuJakVwwSjk90QNYmdaqJCTIVmMg9YpvOVYZTd9SIRKIL8js7kkElzTJ%2FxOnI5R6hF8aQ4ljucZESsB7bLCCrTG3coWrUIYfXpErPheZcjawGJHWtpxRBSQtgMXJIrgWK5Ry3OB9tiVsNBbyc3Qr6Sy62GVYy0tumDwessCSMXCLlLqC67Aw44hRhHLFMdRGSmuIHEi1YVV1Y8WHVooyTJGSFR88NPlny8gwRLNy6izErwiHegGZCkBcecTI5XTF12UdcfUDGoo3owsJQXYK0G%2F%2B9m7t3ofBvnUAM%2FpfNetVvkp%2BgIk8JKGU%2BC9hxyOrOA6lsA8fT2R9pCjegeYk34ltG%2Fvmvrp1eVFeCjG0yx3L1SkpbO3nCHSXEeZrLHSq4G1LDESNU0StiRW2mbYply45ylnXggYgJ9HZ3Vwo4MrhPjaIKo9JPTM1dfmzAXD13dmgjUbjxcXO4ncViIgw6QbOciu4fI3nMIQ3QdNz5jq5ffDKxsMoRHQ15xxRRv9vXFBs%2B9Wn14CmaMQnsNKYqAbxSSoBByKcxG%2F6YmgdKd%2FJ2sFZuH2qY%2BUT4nVT6DE9tBMGe%2B4myeTSW6N%2BZjTjdh%2F3MHJVAQDW%2BXbNrfdoUcMXwQ5%2Bv3Mwqr3VmQY6qQE4Iud7h%2FFvgETzp0xhwyPPbCHOtoaAubxDs5NuwHS8CjDkXgkB6nyXqgmKOUSy13trEHnOZm92yB4GxCV7MmhwD9QLRUBlq4u5Hm06EjijnQFtYJlTMdtrVRfrXmY1%2BmyhvBEqoLUSfPHdYF9hyJHiOZy4x8Qb0NIx%2B%2BAn09bHWhqkGY979%2FB5R9nJGkqjOmaIld%2FpngQfQiKhPrmSFwpjLM%2BSxUe%2BSjq5&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGWFBWEN7UIG4VSQ%2F20220929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220929T093119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=3a407afa99fd50cbc70cbd08165451406deb51d4de341aa88425b2432c221eb4"
+                      alt="No image"
+                    />
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        jQ Folder With Img, 2
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(246, 157, 166)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        jQ Folder With Color 2
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        2 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <img
+                      src="https://duploservices-qa01-storage-014371893531.s3.us-west-2.amazonaws.com/course-folder-images/cb802c1af0960bcdb2e4ac330f57bb17.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDwJevVH1ttfA7iLKc0P%2B4tD6wgWvWVo3cAGyFt09t0xQIgRA9tpxz2CIMtP1fH9t3O%2B6qcvaAo53AxcGQ0SQ2hQdUqzAQIQhABGgwwMTQzNzE4OTM1MzEiDCdoaIQQ121uMrYETCqpBFsUOiL%2FoWTpL77Gv0vUMd1p4x8dtkS4FVFn25%2B0PNlxA8Zbu%2FnmwqcIWJBd2V49PL7RUf6WttoNMbMoiWdDATv7CFJzuQDLyi%2Fd12PD23JVpQjehuJakVwwSjk90QNYmdaqJCTIVmMg9YpvOVYZTd9SIRKIL8js7kkElzTJ%2FxOnI5R6hF8aQ4ljucZESsB7bLCCrTG3coWrUIYfXpErPheZcjawGJHWtpxRBSQtgMXJIrgWK5Ry3OB9tiVsNBbyc3Qr6Sy62GVYy0tumDwessCSMXCLlLqC67Aw44hRhHLFMdRGSmuIHEi1YVV1Y8WHVooyTJGSFR88NPlny8gwRLNy6izErwiHegGZCkBcecTI5XTF12UdcfUDGoo3owsJQXYK0G%2F%2B9m7t3ofBvnUAM%2FpfNetVvkp%2BgIk8JKGU%2BC9hxyOrOA6lsA8fT2R9pCjegeYk34ltG%2Fvmvrp1eVFeCjG0yx3L1SkpbO3nCHSXEeZrLHSq4G1LDESNU0StiRW2mbYply45ylnXggYgJ9HZ3Vwo4MrhPjaIKo9JPTM1dfmzAXD13dmgjUbjxcXO4ncViIgw6QbOciu4fI3nMIQ3QdNz5jq5ffDKxsMoRHQ15xxRRv9vXFBs%2B9Wn14CmaMQnsNKYqAbxSSoBByKcxG%2F6YmgdKd%2FJ2sFZuH2qY%2BUT4nVT6DE9tBMGe%2B4myeTSW6N%2BZjTjdh%2F3MHJVAQDW%2BXbNrfdoUcMXwQ5%2Bv3Mwqr3VmQY6qQE4Iud7h%2FFvgETzp0xhwyPPbCHOtoaAubxDs5NuwHS8CjDkXgkB6nyXqgmKOUSy13trEHnOZm92yB4GxCV7MmhwD9QLRUBlq4u5Hm06EjijnQFtYJlTMdtrVRfrXmY1%2BmyhvBEqoLUSfPHdYF9hyJHiOZy4x8Qb0NIx%2B%2BAn09bHWhqkGY979%2FB5R9nJGkqjOmaIld%2FpngQfQiKhPrmSFwpjLM%2BSxUe%2BSjq5&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGWFBWEN7UIG4VSQ%2F20220929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220929T093119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=5e9509c6f3a400487bff482adb8db647eb1f70aa361903e04b9f612ee7ef2255"
+                      alt="No image"
+                    />
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        jQuery folder with image
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        4 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(246, 157, 166)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        jQuery folder // /new
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        3 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-358"
+                  data-testid="group-title-358"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  TG
+                </div>
+                <div>&nbsp;(4)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(187, 89, 160)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        TG Folder 3008
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        3 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(187, 89, 160)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        CSS With Color
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        2 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <img
+                      src="https://duploservices-qa01-storage-014371893531.s3.us-west-2.amazonaws.com/course-folder-images/d6f8ba3045837ac9ee10b54ed467bf13.jpg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDwJevVH1ttfA7iLKc0P%2B4tD6wgWvWVo3cAGyFt09t0xQIgRA9tpxz2CIMtP1fH9t3O%2B6qcvaAo53AxcGQ0SQ2hQdUqzAQIQhABGgwwMTQzNzE4OTM1MzEiDCdoaIQQ121uMrYETCqpBFsUOiL%2FoWTpL77Gv0vUMd1p4x8dtkS4FVFn25%2B0PNlxA8Zbu%2FnmwqcIWJBd2V49PL7RUf6WttoNMbMoiWdDATv7CFJzuQDLyi%2Fd12PD23JVpQjehuJakVwwSjk90QNYmdaqJCTIVmMg9YpvOVYZTd9SIRKIL8js7kkElzTJ%2FxOnI5R6hF8aQ4ljucZESsB7bLCCrTG3coWrUIYfXpErPheZcjawGJHWtpxRBSQtgMXJIrgWK5Ry3OB9tiVsNBbyc3Qr6Sy62GVYy0tumDwessCSMXCLlLqC67Aw44hRhHLFMdRGSmuIHEi1YVV1Y8WHVooyTJGSFR88NPlny8gwRLNy6izErwiHegGZCkBcecTI5XTF12UdcfUDGoo3owsJQXYK0G%2F%2B9m7t3ofBvnUAM%2FpfNetVvkp%2BgIk8JKGU%2BC9hxyOrOA6lsA8fT2R9pCjegeYk34ltG%2Fvmvrp1eVFeCjG0yx3L1SkpbO3nCHSXEeZrLHSq4G1LDESNU0StiRW2mbYply45ylnXggYgJ9HZ3Vwo4MrhPjaIKo9JPTM1dfmzAXD13dmgjUbjxcXO4ncViIgw6QbOciu4fI3nMIQ3QdNz5jq5ffDKxsMoRHQ15xxRRv9vXFBs%2B9Wn14CmaMQnsNKYqAbxSSoBByKcxG%2F6YmgdKd%2FJ2sFZuH2qY%2BUT4nVT6DE9tBMGe%2B4myeTSW6N%2BZjTjdh%2F3MHJVAQDW%2BXbNrfdoUcMXwQ5%2Bv3Mwqr3VmQY6qQE4Iud7h%2FFvgETzp0xhwyPPbCHOtoaAubxDs5NuwHS8CjDkXgkB6nyXqgmKOUSy13trEHnOZm92yB4GxCV7MmhwD9QLRUBlq4u5Hm06EjijnQFtYJlTMdtrVRfrXmY1%2BmyhvBEqoLUSfPHdYF9hyJHiOZy4x8Qb0NIx%2B%2BAn09bHWhqkGY979%2FB5R9nJGkqjOmaIld%2FpngQfQiKhPrmSFwpjLM%2BSxUe%2BSjq5&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGWFBWEN7UIG4VSQ%2F20220929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220929T093119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=1bb28ac39c1f756868bde00d08baf84e926ce410dbb91a9b62e6814c6e384f8c"
+                      alt="No image"
+                    />
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        CSS Folder with Image
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        4 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(187, 89, 160)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        CSS Quiz With Folder
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        4 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-357"
+                  data-testid="group-title-357"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  GEM
+                </div>
+                <div>&nbsp;(1)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(248, 196, 150)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        JS With Color
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-354"
+                  data-testid="group-title-354"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  AS
+                </div>
+                <div>&nbsp;(3)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(64, 196, 255)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Folder_94
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        0 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Create Folder With Colour
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <img
+                      src="https://duploservices-qa01-storage-014371893531.s3.us-west-2.amazonaws.com/course-folder-images/5507fb2b4931430198caf826263d91f9.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDwJevVH1ttfA7iLKc0P%2B4tD6wgWvWVo3cAGyFt09t0xQIgRA9tpxz2CIMtP1fH9t3O%2B6qcvaAo53AxcGQ0SQ2hQdUqzAQIQhABGgwwMTQzNzE4OTM1MzEiDCdoaIQQ121uMrYETCqpBFsUOiL%2FoWTpL77Gv0vUMd1p4x8dtkS4FVFn25%2B0PNlxA8Zbu%2FnmwqcIWJBd2V49PL7RUf6WttoNMbMoiWdDATv7CFJzuQDLyi%2Fd12PD23JVpQjehuJakVwwSjk90QNYmdaqJCTIVmMg9YpvOVYZTd9SIRKIL8js7kkElzTJ%2FxOnI5R6hF8aQ4ljucZESsB7bLCCrTG3coWrUIYfXpErPheZcjawGJHWtpxRBSQtgMXJIrgWK5Ry3OB9tiVsNBbyc3Qr6Sy62GVYy0tumDwessCSMXCLlLqC67Aw44hRhHLFMdRGSmuIHEi1YVV1Y8WHVooyTJGSFR88NPlny8gwRLNy6izErwiHegGZCkBcecTI5XTF12UdcfUDGoo3owsJQXYK0G%2F%2B9m7t3ofBvnUAM%2FpfNetVvkp%2BgIk8JKGU%2BC9hxyOrOA6lsA8fT2R9pCjegeYk34ltG%2Fvmvrp1eVFeCjG0yx3L1SkpbO3nCHSXEeZrLHSq4G1LDESNU0StiRW2mbYply45ylnXggYgJ9HZ3Vwo4MrhPjaIKo9JPTM1dfmzAXD13dmgjUbjxcXO4ncViIgw6QbOciu4fI3nMIQ3QdNz5jq5ffDKxsMoRHQ15xxRRv9vXFBs%2B9Wn14CmaMQnsNKYqAbxSSoBByKcxG%2F6YmgdKd%2FJ2sFZuH2qY%2BUT4nVT6DE9tBMGe%2B4myeTSW6N%2BZjTjdh%2F3MHJVAQDW%2BXbNrfdoUcMXwQ5%2Bv3Mwqr3VmQY6qQE4Iud7h%2FFvgETzp0xhwyPPbCHOtoaAubxDs5NuwHS8CjDkXgkB6nyXqgmKOUSy13trEHnOZm92yB4GxCV7MmhwD9QLRUBlq4u5Hm06EjijnQFtYJlTMdtrVRfrXmY1%2BmyhvBEqoLUSfPHdYF9hyJHiOZy4x8Qb0NIx%2B%2BAn09bHWhqkGY979%2FB5R9nJGkqjOmaIld%2FpngQfQiKhPrmSFwpjLM%2BSxUe%2BSjq5&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGWFBWEN7UIG4VSQ%2F20220929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220929T093119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=6c3f146881ecbcbfeac959659ab27008c927a2c61f133d58e9147212eec8f2a5"
+                      alt="No image"
+                    />
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        HTML Folder With Image
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        4 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-356"
+                  data-testid="group-title-356"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  RGM
+                </div>
+                <div>&nbsp;(11)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(138, 245, 194)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Test 2
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        12 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        New Folder
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(246, 157, 166)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        New Folder2
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(248, 196, 150)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        New folder
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        2 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Sample
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(64, 196, 255)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Quiz Workspace
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        3 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(112, 114, 128)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Lessons
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        6 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(187, 89, 160)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        New
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        5 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Folder 3
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(1, 166, 176)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Folder 2
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(255, 208, 7)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Folder 1
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        4 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div className="fg-header-wrapper">
+          <div
+            className="ant-divider ant-divider-horizontal ant-divider-with-text-center"
+            role="separator"
+          >
+            <span className="ant-divider-inner-text">
+              <div style={{ display: "flex" }}>
+                <div
+                  id="group-title-355"
+                  data-testid="group-title-355"
+                  contentEditable="false"
+                  className="fg-group-title"
+                >
+                  IA
+                </div>
+                <div>&nbsp;(7)</div>
+              </div>
+            </span>
+          </div>
+          <div className="fg-header-controls-wrapper">
+            <div className="fg-controls-collapse">
+              <div className="fg-controls-collapse--inner">
+                <span
+                  data-testid="collapse-icon"
+                  className="manage-folder-icons"
+                >
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M14.4964 9.49645L14.4964 10.5036L10.5036 10.5036H9.49643L5.50355 10.5036L5.50355 9.49645H9.49643H10.5036H14.4964Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </span>
+                <div data-testid="reorder-icon" className="fg-drag">
+                  <svg
+                    width={20}
+                    height={20}
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <rect
+                      x="0.5"
+                      y="0.5"
+                      width={19}
+                      height={19}
+                      rx="1.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M8.125 7.5C8.81536 7.5 9.375 6.94036 9.375 6.25C9.375 5.55964 8.81536 5 8.125 5C7.43464 5 6.875 5.55964 6.875 6.25C6.875 6.94036 7.43464 7.5 8.125 7.5ZM8.125 11.25C8.81536 11.25 9.375 10.6904 9.375 10C9.375 9.30964 8.81536 8.75 8.125 8.75C7.43464 8.75 6.875 9.30964 6.875 10C6.875 10.6904 7.43464 11.25 8.125 11.25ZM9.375 13.75C9.375 14.4404 8.81536 15 8.125 15C7.43464 15 6.875 14.4404 6.875 13.75C6.875 13.0596 7.43464 12.5 8.125 12.5C8.81536 12.5 9.375 13.0596 9.375 13.75ZM11.875 7.5C12.5654 7.5 13.125 6.94036 13.125 6.25C13.125 5.55964 12.5654 5 11.875 5C11.1846 5 10.625 5.55964 10.625 6.25C10.625 6.94036 11.1846 7.5 11.875 7.5ZM13.125 10C13.125 10.6904 12.5654 11.25 11.875 11.25C11.1846 11.25 10.625 10.6904 10.625 10C10.625 9.30964 11.1846 8.75 11.875 8.75C12.5654 8.75 13.125 9.30964 13.125 10ZM11.875 15C12.5654 15 13.125 14.4404 13.125 13.75C13.125 13.0596 12.5654 12.5 11.875 12.5C11.1846 12.5 10.625 13.0596 10.625 13.75C10.625 14.4404 11.1846 15 11.875 15Z"
+                      fill="#707280"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div className="fg-controls-edit">
+              <div className="fg-controls-edit--inner">
+                <span data-testid="edit-icon" className="manage-folder-icons">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M7 14.7087V17H9.29135L16.0493 10.242L13.758 7.9507L7 14.7087ZM17.8213 8.47007C18.0596 8.23177 18.0596 7.84683 17.8213 7.60853L16.3915 6.17873C16.1532 5.94042 15.7682 5.94042 15.5299 6.17873L14.4117 7.2969L16.7031 9.58825L17.8213 8.47007Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+                <span data-testid="remove-icon" className="fg-remove">
+                  <svg
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle
+                      cx={12}
+                      cy={12}
+                      r="11.5"
+                      fill="white"
+                      stroke="#E3E3E3"
+                    />
+                    <path
+                      d="M16.6673 8.27337L15.7273 7.33337L12.0007 11.06L8.27398 7.33337L7.33398 8.27337L11.0607 12L7.33398 15.7267L8.27398 16.6667L12.0007 12.94L15.7273 16.6667L16.6673 15.7267L12.9407 12L16.6673 8.27337Z"
+                      fill="#11142C"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="ant-row"
+            style={{ marginLeft: "-8px", marginRight: "-8px", rowGap: 0 }}
+          >
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Copy of Copy of SAS.Qa01
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        Copy of SAS.Qa01
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        SAS.Qa01
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(1, 166, 176)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        SAS 0.9
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style={{ color: "rgb(138, 245, 194)" }}
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        SAS Data 0.1
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        0 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <svg
+                      width={27}
+                      height={23}
+                      viewBox="0 0 27 23"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M4 0C1.84177 0 0.0827556 1.70928 0.00283593 3.84797H0V4V4.2699V18.8253C0 21.0344 1.79086 22.8253 4 22.8253H22.5683C24.7774 22.8253 26.5683 21.0344 26.5683 18.8253V7.84797C26.5683 5.63883 24.7774 3.84797 22.5683 3.84797H15.1875L12.0529 1.02682C11.3184 0.365774 10.3652 0 9.37702 0H4Z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        SAS Duplicate 0.01
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        1 Package
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+            <div
+              className="ant-col ant-col-xs-24 ant-col-sm-12 ant-col-lg-8 ant-col-xl-6"
+              style={{ paddingLeft: 8, paddingRight: 8 }}
+            >
+              <div className="tp-folder-list-item bg-white">
+                <div className="tp-folder-list-item--inner">
+                  <div className="tp-folder-list-item--image">
+                    <img
+                      src="https://duploservices-qa01-storage-014371893531.s3.us-west-2.amazonaws.com/course-folder-images/dd1897c0ff852acd2bdb871a904f526a.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEIn%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDwJevVH1ttfA7iLKc0P%2B4tD6wgWvWVo3cAGyFt09t0xQIgRA9tpxz2CIMtP1fH9t3O%2B6qcvaAo53AxcGQ0SQ2hQdUqzAQIQhABGgwwMTQzNzE4OTM1MzEiDCdoaIQQ121uMrYETCqpBFsUOiL%2FoWTpL77Gv0vUMd1p4x8dtkS4FVFn25%2B0PNlxA8Zbu%2FnmwqcIWJBd2V49PL7RUf6WttoNMbMoiWdDATv7CFJzuQDLyi%2Fd12PD23JVpQjehuJakVwwSjk90QNYmdaqJCTIVmMg9YpvOVYZTd9SIRKIL8js7kkElzTJ%2FxOnI5R6hF8aQ4ljucZESsB7bLCCrTG3coWrUIYfXpErPheZcjawGJHWtpxRBSQtgMXJIrgWK5Ry3OB9tiVsNBbyc3Qr6Sy62GVYy0tumDwessCSMXCLlLqC67Aw44hRhHLFMdRGSmuIHEi1YVV1Y8WHVooyTJGSFR88NPlny8gwRLNy6izErwiHegGZCkBcecTI5XTF12UdcfUDGoo3owsJQXYK0G%2F%2B9m7t3ofBvnUAM%2FpfNetVvkp%2BgIk8JKGU%2BC9hxyOrOA6lsA8fT2R9pCjegeYk34ltG%2Fvmvrp1eVFeCjG0yx3L1SkpbO3nCHSXEeZrLHSq4G1LDESNU0StiRW2mbYply45ylnXggYgJ9HZ3Vwo4MrhPjaIKo9JPTM1dfmzAXD13dmgjUbjxcXO4ncViIgw6QbOciu4fI3nMIQ3QdNz5jq5ffDKxsMoRHQ15xxRRv9vXFBs%2B9Wn14CmaMQnsNKYqAbxSSoBByKcxG%2F6YmgdKd%2FJ2sFZuH2qY%2BUT4nVT6DE9tBMGe%2B4myeTSW6N%2BZjTjdh%2F3MHJVAQDW%2BXbNrfdoUcMXwQ5%2Bv3Mwqr3VmQY6qQE4Iud7h%2FFvgETzp0xhwyPPbCHOtoaAubxDs5NuwHS8CjDkXgkB6nyXqgmKOUSy13trEHnOZm92yB4GxCV7MmhwD9QLRUBlq4u5Hm06EjijnQFtYJlTMdtrVRfrXmY1%2BmyhvBEqoLUSfPHdYF9hyJHiOZy4x8Qb0NIx%2B%2BAn09bHWhqkGY979%2FB5R9nJGkqjOmaIld%2FpngQfQiKhPrmSFwpjLM%2BSxUe%2BSjq5&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIAQGWFBWEN7UIG4VSQ%2F20220929%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220929T093119Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=fc3aadf7f631114928e416bdb2a33d8a8c8711c892edc8941e665b84d6739b41"
+                      alt="No image"
+                    />
+                  </div>
+                  <div className="tp-folder-list-item--name">
+                    <div className="tp-folder-list-item--name--text">
+                      <span
+                        className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        SAS Folder With Image
+                      </span>
+                    </div>
+                    <div>
+                      <span
+                        className="styles_text__1i9zK styles_text--size-2__3Zw88 styles_font_lato__1qqvD gray-1"
+                        style={{ fontWeight: "normal" }}
+                      >
+                        6 Packages
+                      </span>
+                    </div>
+                  </div>
+                  <div className="tp-folder-list-item--actions">
+                    <div className="tp-folder-item-checkbox tp-folder-list-item--actions_checkbox">
+                      <label className="styles_checkbox__31LZ- styles_black__2jVmX styles_no_margin__OBr6o ant-checkbox-wrapper">
+                        <span className="ant-checkbox">
+                          <input
+                            type="checkbox"
+                            className="ant-checkbox-input"
+                            data-testid="folder-select-checkbox"
+                            defaultValue=""
+                          />
+                          <span className="ant-checkbox-inner" />
+                        </span>
+                        <span>
+                          <span
+                            className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
+                            style={{ fontWeight: "normal" }}
+                          />
+                        </span>
+                      </label>
+                    </div>
+                    <div className="tp-folder-list-item--actions_settings" />
+                  </div>
+                </div>
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+              <div className="ant-spin-nested-loading l2w-spinner">
+                <div className="ant-spin-container" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+          
+
+        </div>
     </div>
   )
 }

@@ -116,3 +116,1429 @@ code {
     display: none;
 }
 }
+.Content-Wrapper{
+  margin-inline-start: 300px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+/*! CSS Used from: https://qa01.apps.learntowin.com/static/css/2.6efece99.chunk.css */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+img {
+  border-style: none;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+svg {
+  overflow: hidden;
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+input {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+input {
+  overflow: visible;
+}
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+h5 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+h5 {
+  font-size: 1.25rem;
+}
+.bg-white {
+  background-color: #fff !important;
+}
+@media print {
+  *,
+  :after,
+  :before {
+    text-shadow: none !important;
+    box-shadow: none !important;
+  }
+  img {
+    page-break-inside: avoid;
+  }
+}
+/*! CSS Used from: https://qa01.apps.learntowin.com/static/css/main.2d700c59.chunk.css */
+.full-height .ant-spin-container {
+  height: 100%;
+}
+.styles_title__2WFn_ {
+  margin: 0;
+}
+.styles_title__2WFn_.styles_level5__ZwZhV {
+  font-family: "Merriweather", "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.styles_text__1i9zK {
+  margin: 0;
+}
+.styles_font_lato__1qqvD {
+  font-family: "Lato", "Merriweather", sans-serif;
+}
+.styles_text--size-2__3Zw88 {
+  font-size: 12px;
+  line-height: 1.2;
+}
+.styles_text--size-4__2JzMz {
+  font-size: 16px;
+  line-height: 1.2;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+.dark-blue-1 {
+  color: #11142c;
+}
+.gray-1 {
+  color: #707280;
+}
+.bg-white {
+  background-color: #fff;
+}
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+h5 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+input:not([type="range"]),
+label {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+input {
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+input {
+  overflow: visible;
+}
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+::selection {
+  color: #fff;
+  background: #006cc1;
+}
+.ant-checkbox {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: "tnum", "tnum";
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+  top: -0.09em;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+.ant-checkbox-input:focus + .ant-checkbox-inner,
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner {
+  border-color: #006cc1;
+}
+.ant-checkbox-wrapper:hover .ant-checkbox:after,
+.ant-checkbox:hover:after {
+  visibility: visible;
+}
+.ant-checkbox-inner {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  border-collapse: separate;
+  transition: all 0.3s;
+}
+.ant-checkbox-inner:after {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  display: table;
+  width: 5.71428571px;
+  height: 9.14285714px;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  -webkit-transform: rotate(45deg) scale(0) translate(-50%, -50%);
+  -ms-transform: rotate(45deg) scale(0) translate(-50%, -50%);
+  transform: rotate(45deg) scale(0) translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+  content: " ";
+}
+.ant-checkbox-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+.ant-checkbox-wrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: "tnum", "tnum";
+  font-feature-settings: "tnum", "tnum";
+  display: inline-block;
+  line-height: unset;
+  cursor: pointer;
+}
+.ant-checkbox + span {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.ant-divider {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: "tnum", "tnum";
+  font-feature-settings: "tnum", "tnum";
+  background: #e8e8e8;
+}
+.ant-divider {
+  position: relative;
+  top: -0.06em;
+  display: inline-block;
+  width: 1px;
+  height: 0.9em;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+.ant-divider-horizontal {
+  display: block;
+  clear: both;
+  width: 100%;
+  min-width: 100%;
+  height: 1px;
+  margin: 24px 0;
+}
+.ant-divider-horizontal.ant-divider-with-text-center {
+  display: table;
+  margin: 16px 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+}
+.ant-divider-horizontal.ant-divider-with-text-center:after,
+.ant-divider-horizontal.ant-divider-with-text-center:before {
+  position: relative;
+  top: 50%;
+  display: table-cell;
+  width: 50%;
+  border-top: 1px solid #e8e8e8;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+  content: "";
+}
+.ant-divider-inner-text {
+  display: inline-block;
+  padding: 0 24px;
+}
+.ant-row {
+  position: relative;
+  height: auto;
+  margin-right: 0;
+  margin-left: 0;
+  zoom: 1;
+  display: block;
+  box-sizing: border-box;
+}
+.ant-row:after,
+.ant-row:before {
+  display: table;
+  content: "";
+}
+.ant-row:after {
+  clear: both;
+}
+.ant-col {
+  position: relative;
+  min-height: 1px;
+}
+.ant-col-lg-8,
+.ant-col-sm-12,
+.ant-col-xs-24 {
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+}
+.ant-col-xs-24 {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  float: left;
+}
+.ant-col-xs-24 {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .ant-col-sm-12 {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    float: left;
+  }
+  .ant-col-sm-12 {
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .ant-col-lg-8 {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    float: left;
+  }
+  .ant-col-lg-8 {
+    display: block;
+    box-sizing: border-box;
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .ant-col-xl-6 {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    float: left;
+  }
+  .ant-col-xl-6 {
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+  }
+}
+.ant-spin-nested-loading {
+  position: relative;
+}
+.ant-spin-container {
+  position: relative;
+  transition: opacity 0.3s;
+}
+.ant-spin-container:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none\9;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  transition: all 0.3s;
+  content: "";
+  pointer-events: none;
+}
+@media (pointer: fine) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsla(0, 0%, 76.9%, 0.39);
+    border: 1px solid #a2a2a2;
+    border-radius: 22px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #707280;
+    border-radius: 22px;
+  }
+}
+/*! CSS Used from: https://qa01.apps.learntowin.com/static/css/4.6e6274a3.chunk.css */
+.styles_checkbox__31LZ- .ant-checkbox-inner {
+  border: 2px solid #707280 !important;
+}
+.styles_checkbox__31LZ- .ant-checkbox-inner:after {
+  left: 2px;
+}
+.styles_no_margin__OBr6o span {
+  padding: 0 !important;
+}
+.fg-header-controls-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.fg-header-wrapper .ant-divider-horizontal.ant-divider-with-text-center:after,
+.fg-header-wrapper .ant-divider-horizontal.ant-divider-with-text-center:before {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.fg-group-title {
+  height: 28px;
+  border: none;
+  background-color: inherit;
+}
+.fg-controls-collapse {
+  position: relative;
+  width: 57px;
+}
+.fg-controls-collapse--inner {
+  position: absolute;
+  margin-top: -43px;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fg-controls-edit {
+  position: relative;
+  width: 57px;
+}
+.fg-controls-edit--default {
+  position: relative;
+  width: 24px;
+}
+.fg-controls-edit--inner {
+  position: absolute;
+  margin-top: -43px;
+  display: -ms-flexbox;
+  display: flex;
+}
+.manage-folder-icons {
+  cursor: pointer;
+}
+.fg-drag {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.fg-drag,
+.fg-remove {
+  cursor: pointer;
+  margin-left: 9px;
+}
+.tp-folder-list-item {
+  padding: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.15);
+  margin: 5px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.tp-folder-list-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.tp-folder-list-item:hover .ant-checkbox-wrapper {
+  display: block;
+}
+.tp-folder-list-item--inner {
+  height: 54px;
+  background-color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 0 0 0 9px;
+}
+.tp-folder-list-item--image {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 31px;
+  height: 31px;
+  margin-top: 12px;
+}
+.tp-folder-list-item--image > img {
+  min-width: 100%;
+  height: 100%;
+  font-size: 0.72rem;
+}
+.tp-folder-list-item--name {
+  margin-top: 6px;
+  margin-left: 10px;
+  width: 100%;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.tp-folder-list-item--name--text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.tp-folder-list-item--actions {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.tp-folder-list-item--actions_checkbox {
+  height: 16px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.tp-folder-list-item--actions_checkbox .ant-checkbox-wrapper {
+  display: none;
+}
+.tp-folder-list-item--actions_settings {
+  height: 25px;
+}
+.tp-folders-wrapper {
+  padding: 0 24px 24px 34px;
+  margin-top: 45px;
+}
+.tp-folders-title {
+  height: 50px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 1024px) {
+  .tp-folders-title {
+    padding-top: 24px;
+    margin-top: 0;
+  }
+}
+.tp-folder-list {
+  margin-top: 15px;
+}
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+h5 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+input:not([type="range"]),
+label {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+input {
+  margin: 0;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+input {
+  overflow: visible;
+}
+input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+::selection {
+  color: #fff;
+  background: #006cc1;
+}
+.ant-checkbox {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: "tnum", "tnum";
+  font-feature-settings: "tnum", "tnum";
+  position: relative;
+  top: -0.09em;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: none;
+  cursor: pointer;
+}
+.ant-checkbox-input:focus + .ant-checkbox-inner,
+.ant-checkbox-wrapper:hover .ant-checkbox-inner,
+.ant-checkbox:hover .ant-checkbox-inner {
+  border-color: #006cc1;
+}
+.ant-checkbox-wrapper:hover .ant-checkbox:after,
+.ant-checkbox:hover:after {
+  visibility: visible;
+}
+.ant-checkbox-inner {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  border-collapse: separate;
+  transition: all 0.3s;
+}
+.ant-checkbox-inner:after {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  display: table;
+  width: 5.71428571px;
+  height: 9.14285714px;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  -webkit-transform: rotate(45deg) scale(0) translate(-50%, -50%);
+  -ms-transform: rotate(45deg) scale(0) translate(-50%, -50%);
+  transform: rotate(45deg) scale(0) translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6), opacity 0.1s;
+  content: " ";
+}
+.ant-checkbox-input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+}
+.ant-checkbox-wrapper {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: "tnum", "tnum";
+  font-feature-settings: "tnum", "tnum";
+  display: inline-block;
+  line-height: unset;
+  cursor: pointer;
+}
+.ant-checkbox + span {
+  padding-right: 8px;
+  padding-left: 8px;
+}
+.ant-divider {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  -webkit-font-feature-settings: "tnum", "tnum";
+  font-feature-settings: "tnum", "tnum";
+  background: #e8e8e8;
+}
+.ant-divider {
+  position: relative;
+  top: -0.06em;
+  display: inline-block;
+  width: 1px;
+  height: 0.9em;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+.ant-divider-horizontal {
+  display: block;
+  clear: both;
+  width: 100%;
+  min-width: 100%;
+  height: 1px;
+  margin: 24px 0;
+}
+.ant-divider-horizontal.ant-divider-with-text-center {
+  display: table;
+  margin: 16px 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-weight: 500;
+  font-size: 16px;
+  white-space: nowrap;
+  text-align: center;
+  background: rgba(0, 0, 0, 0);
+}
+.ant-divider-horizontal.ant-divider-with-text-center:after,
+.ant-divider-horizontal.ant-divider-with-text-center:before {
+  position: relative;
+  top: 50%;
+  display: table-cell;
+  width: 50%;
+  border-top: 1px solid #e8e8e8;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+  content: "";
+}
+.ant-divider-inner-text {
+  display: inline-block;
+  padding: 0 24px;
+}
+.ant-row {
+  position: relative;
+  height: auto;
+  margin-right: 0;
+  margin-left: 0;
+  zoom: 1;
+  display: block;
+  box-sizing: border-box;
+}
+.ant-row:after,
+.ant-row:before {
+  display: table;
+  content: "";
+}
+.ant-row:after {
+  clear: both;
+}
+.ant-col {
+  position: relative;
+  min-height: 1px;
+}
+.ant-col-lg-8,
+.ant-col-sm-12,
+.ant-col-xs-24 {
+  position: relative;
+  padding-right: 0;
+  padding-left: 0;
+}
+.ant-col-xs-24 {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  float: left;
+}
+.ant-col-xs-24 {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}
+@media (min-width: 576px) {
+  .ant-col-sm-12 {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    float: left;
+  }
+  .ant-col-sm-12 {
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .ant-col-lg-8 {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    float: left;
+  }
+  .ant-col-lg-8 {
+    display: block;
+    box-sizing: border-box;
+    width: 33.33333333%;
+  }
+}
+@media (min-width: 1200px) {
+  .ant-col-xl-6 {
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    float: left;
+  }
+  .ant-col-xl-6 {
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+  }
+}
+.ant-spin-nested-loading {
+  position: relative;
+}
+.ant-spin-container {
+  position: relative;
+  transition: opacity 0.3s;
+}
+.ant-spin-container:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  display: none\9;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0;
+  transition: all 0.3s;
+  content: "";
+  pointer-events: none;
+}
+@media (pointer: fine) {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: hsla(0, 0%, 76.9%, 0.39);
+    border: 1px solid #a2a2a2;
+    border-radius: 22px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #707280;
+    border-radius: 22px;
+  }
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*! CSS Used fontfaces */
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.e5bfe18b.eot);
+  src: local("Merriweather Black Italic"),
+    local("Merriweather/Merriweather-BlackItalic"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.e5bfe18b.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.d75739d8.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.c8b1f9c9.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.f4ed1b8f.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.733b09d3.svg#Merriweather/Merriweather-BlackItalic)
+      format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.c96ec5e5.eot);
+  src: local("Merriweather Light Italic"),
+    local("Merriweather/Merriweather-LightItalic"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.c96ec5e5.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.d6df581c.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.a5a7b50e.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.ef0b9ee8.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.f7957d4c.svg#Merriweather/Merriweather-LightItalic)
+      format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.5c493622.eot);
+  src: local("Merriweather Bold Italic"),
+    local("Merriweather/Merriweather-BoldItalic"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.5c493622.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.b9845c4b.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.41174eb1.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.126bcd77.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.37cbe1ab.svg#Merriweather/Merriweather-BoldItalic)
+      format("svg");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.7f357b83.eot);
+  src: local("Merriweather Regular"), local("Merriweather/Merriweather-Regular"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.7f357b83.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.282c0e7a.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.606101c5.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.7ac5dadb.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.234c8ad8.svg#Merriweather/Merriweather-Regular)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.a90d1dd0.eot);
+  src: local("Merriweather Italic"), local("Merriweather/Merriweather-Italic"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.a90d1dd0.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.4d760c3f.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.7747d036.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.4a7b6721.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.1936e654.svg#Merriweather/Merriweather-Italic)
+      format("svg");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.f2569674.eot);
+  src: local("Merriweather Bold"), local("Merriweather/Merriweather-Bold"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.f2569674.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.926b2ccb.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.a3e66a3d.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.d8bae73f.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.6e31e162.svg#Merriweather/Merriweather-Bold)
+      format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.d4047866.eot);
+  src: local("Merriweather Light"), local("Merriweather/Merriweather-Light"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.d4047866.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.36206d91.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.6c24f4a1.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.9bb9f00d.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.08cb96ac.svg#Merriweather/Merriweather-Light)
+      format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.0906d403.eot);
+  src: local("Merriweather Black"), local("Merriweather/Merriweather-Black"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.0906d403.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.119247a4.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.cbd46856.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.5c2a4035.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.e937bbc0.svg#Merriweather/Merriweather-Black)
+      format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.e5bfe18b.eot);
+  src: local("Merriweather Black Italic"),
+    local("Merriweather/Merriweather-BlackItalic"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.e5bfe18b.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.d75739d8.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.c8b1f9c9.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.f4ed1b8f.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BlackItalic.733b09d3.svg#Merriweather/Merriweather-BlackItalic)
+      format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.c96ec5e5.eot);
+  src: local("Merriweather Light Italic"),
+    local("Merriweather/Merriweather-LightItalic"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.c96ec5e5.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.d6df581c.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.a5a7b50e.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.ef0b9ee8.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-LightItalic.f7957d4c.svg#Merriweather/Merriweather-LightItalic)
+      format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.5c493622.eot);
+  src: local("Merriweather Bold Italic"),
+    local("Merriweather/Merriweather-BoldItalic"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.5c493622.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.b9845c4b.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.41174eb1.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.126bcd77.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-BoldItalic.37cbe1ab.svg#Merriweather/Merriweather-BoldItalic)
+      format("svg");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.7f357b83.eot);
+  src: local("Merriweather Regular"), local("Merriweather/Merriweather-Regular"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.7f357b83.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.282c0e7a.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.606101c5.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.7ac5dadb.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Regular.234c8ad8.svg#Merriweather/Merriweather-Regular)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.a90d1dd0.eot);
+  src: local("Merriweather Italic"), local("Merriweather/Merriweather-Italic"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.a90d1dd0.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.4d760c3f.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.7747d036.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.4a7b6721.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Italic.1936e654.svg#Merriweather/Merriweather-Italic)
+      format("svg");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.f2569674.eot);
+  src: local("Merriweather Bold"), local("Merriweather/Merriweather-Bold"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.f2569674.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.926b2ccb.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.a3e66a3d.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.d8bae73f.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Bold.6e31e162.svg#Merriweather/Merriweather-Bold)
+      format("svg");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.d4047866.eot);
+  src: local("Merriweather Light"), local("Merriweather/Merriweather-Light"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.d4047866.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.36206d91.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.6c24f4a1.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.9bb9f00d.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Light.08cb96ac.svg#Merriweather/Merriweather-Light)
+      format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.0906d403.eot);
+  src: local("Merriweather Black"), local("Merriweather/Merriweather-Black"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.0906d403.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.119247a4.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.cbd46856.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.5c2a4035.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Merriweather-Black.e937bbc0.svg#Merriweather/Merriweather-Black)
+      format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Black.b30d7df4.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Black.b30d7df4.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Black.9280d87f.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Black.efe7c183.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Black.1b84f756.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Black.72544880.svg#Lato/Lato-Black)
+      format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.3cc5ee3b.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.3cc5ee3b.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.ea8a923e.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.ba3a83ad.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.cedaf50f.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.0e1ec392.svg#Lato/Lato-Bold)
+      format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.2a9df1c2.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.2a9df1c2.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.39ac38d8.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.77ca2742.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.afc15a6f.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.1ab877c6.svg#Lato/Lato-Regular)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.987f5fb2.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.987f5fb2.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.d9364c88.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.251de5f4.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.f7e9b70c.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.a3adb217.svg#Lato/Lato-Italic)
+      format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.f3a72981.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.f3a72981.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.3061b546.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.c329db2e.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.a7afb5fa.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.a72046b3.svg#Lato/Lato-BlackItalic)
+      format("svg");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.5afcc8f0.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.5afcc8f0.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.84607fcd.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.443bd943.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.7676992a.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.c65e49e8.svg#Lato/Lato-BoldItalic)
+      format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Light.c8228e51.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Light.c8228e51.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Light.7e323674.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Light.91308c02.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Light.6781b636.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Light.46f5d42b.svg#Lato/Lato-Light)
+      format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.344aaa57.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.344aaa57.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.0ea7656d.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.6876f3b2.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.0772fd0e.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.17348fa2.svg#Lato/Lato-LightItalic)
+      format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Black.b30d7df4.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Black.b30d7df4.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Black.9280d87f.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Black.efe7c183.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Black.1b84f756.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Black.72544880.svg#Lato/Lato-Black)
+      format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.3cc5ee3b.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.3cc5ee3b.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.ea8a923e.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.ba3a83ad.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.cedaf50f.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Bold.0e1ec392.svg#Lato/Lato-Bold)
+      format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.2a9df1c2.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.2a9df1c2.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.39ac38d8.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.77ca2742.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.afc15a6f.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Regular.1ab877c6.svg#Lato/Lato-Regular)
+      format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.987f5fb2.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.987f5fb2.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.d9364c88.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.251de5f4.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.f7e9b70c.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Italic.a3adb217.svg#Lato/Lato-Italic)
+      format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.f3a72981.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.f3a72981.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.3061b546.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.c329db2e.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.a7afb5fa.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BlackItalic.a72046b3.svg#Lato/Lato-BlackItalic)
+      format("svg");
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.5afcc8f0.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.5afcc8f0.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.84607fcd.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.443bd943.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.7676992a.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-BoldItalic.c65e49e8.svg#Lato/Lato-BoldItalic)
+      format("svg");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Light.c8228e51.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-Light.c8228e51.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Light.7e323674.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Light.91308c02.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Light.6781b636.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-Light.46f5d42b.svg#Lato/Lato-Light)
+      format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.344aaa57.eot);
+  src: url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.344aaa57.eot#iefix)
+      format("embedded-opentype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.0ea7656d.woff2)
+      format("woff2"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.6876f3b2.woff)
+      format("woff"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.0772fd0e.ttf)
+      format("truetype"),
+    url(https://qa01.apps.learntowin.com/static/media/Lato-LightItalic.17348fa2.svg#Lato/Lato-LightItalic)
+      format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
