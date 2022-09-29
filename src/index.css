@@ -122,7 +122,10 @@ code {
   margin-left: 80px;
 }
 .tp-folders-wrapper{
-  margin-inline-start: 200px;
+  margin-inline-start: 350px;
+  margin-top: 15px;
+
+  margin-left: 200px;
 }
 /*! CSS Used from: https://qa01.apps.learntowin.com/static/css/2.6efece99.chunk.css */
 *,
