@@ -175,19 +175,19 @@ onClick={handleToggler}
         <div className={isExpanded?'Content':'Content1'}>
         <div class="top-card-layout__entity-image-container flex">
               
-              <img style={{width:"100px",marginTop:"30px",marginLeft:"90px"}} class="inline-block relative w-16 h-16 top-card-layout__entity-image shadow-color-shadow shadow-[0_4px_12px] border-2 border-solid border-color-surface mt-[-70px] mb-[14px] papabear:border-4 papabear:mt-[-100px] papabear:mb-[18px] lazy-loaded" data-ghost-classes="bg-color-entity-ghost-background" data-ghost-url="https://static-exp1.licdn.com/sc/h/cs8pjfgyw96g44ln9r7tct85f" alt="Sun KPO Inc." src="https://media-exp1.licdn.com/dms/image/C510BAQFFV45sgESC-Q/company-logo_200_200/0/1519864496810?e=2147483647&amp;v=beta&amp;t=58ncTZHPWhm2a2dXhDcEXI6Zhq0wV0GyxIduHAl0GmY"/>
+              <img style={{width:"90px",marginTop:"30px",marginLeft:"20px"}} class="inline-block relative w-16 h-16 top-card-layout__entity-image shadow-color-shadow shadow-[0_4px_12px] border-2 border-solid border-color-surface mt-[-70px] mb-[14px] papabear:border-4 papabear:mt-[-100px] papabear:mb-[18px] lazy-loaded" data-ghost-classes="bg-color-entity-ghost-background" data-ghost-url="https://static-exp1.licdn.com/sc/h/cs8pjfgyw96g44ln9r7tct85f" alt="Sun KPO Inc." src="https://media-exp1.licdn.com/dms/image/C510BAQFFV45sgESC-Q/company-logo_200_200/0/1519864496810?e=2147483647&amp;v=beta&amp;t=58ncTZHPWhm2a2dXhDcEXI6Zhq0wV0GyxIduHAl0GmY"/>
           
                     </div>
-        <Button variant="light"style={{marginLeft:"300px",marginTop:"-210px"}}><span>
+        <Button variant="light"style={{marginLeft:"120px",marginTop:"-180px"}}><span>
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M3.00018 5C3.00018 3.89543 3.89561 3 5.00018 3H7.83158C8.80782 3 9.75036 3.35702 10.4816 4.00379L11.608 5H16C17.1046 5 18 5.89543 18 7V16C18 17.1046 17.1046 18 16 18H5C3.89543 18 3 17.1046 3 16L3.00018 5Z" fill="currentColor">
           
         </path>
         <path d="M19.5404 12V19.2978C19.5404 19.7008 19.2137 20.0276 18.8106 20.0276H8.59375V21.4871H18.8106C20.0198 21.4871 21 20.5069 21 19.2978V12H19.5404Z" fill="currentColor"></path></svg></span>&nbsp;Group Folders</Button>&nbsp;
-        <Button variant="light" style={{marginLeft:"10px",marginTop:"-210px"}}>
+        <Button variant="light" style={{marginLeft:"10px",marginTop:"-180px"}}>
             <span>
                 <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4 0C1.79086 0 0 1.79086 0 4V4.00004V4.46327V6.00004V19.8368C0 22.0459 1.79086 23.8368 4 23.8368H23.6807C25.8898 23.8368 27.6807 22.0459 27.6807 19.8368V8.00004C27.6807 5.7909 25.8898 4.00004 23.6807 4.00004H15.7988L12.5109 1.03118C11.7758 0.367435 10.8206 0 9.83016 0H4ZM2 6.00004H23.6807C24.7852 6.00004 25.6807 6.89547 25.6807 8.00004V19.8368C25.6807 20.9413 24.7852 21.8368 23.6807 21.8368H4C2.89543 21.8368 2 20.9413 2 19.8368V6.00004Z" fill="#707280"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M9 14C9 11.24 11.24 9 14 9C16.76 9 19 11.24 19 14C19 16.76 16.76 19 14 19C11.24 19 9 16.76 9 14ZM16.5 14.5H14.5V16.5H13.5V14.5H11.5V13.5H13.5V11.5H14.5V13.5H16.5V14.5Z" fill="#EA2139"></path></svg></span>&nbsp;Create Folder</Button>&nbsp;
-        <Button variant="light" style={{marginLeft:"10px",marginTop:"-210px"}}>
+        <Button variant="light" style={{marginLeft:"10px",marginTop:"-180px"}}>
             <span>
             <svg width="28" height="24" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="34" height="34"><rect x="0.112305" y="0.14624" width="33.8877" height="33.7074" rx="2" fill="white">
         </rect></mask><g mask="url(#mask0)">
@@ -222,8 +222,8 @@ onClick={handleToggler}
         </g>
         </svg>
         </span>&nbsp;Create Package</Button>&nbsp;
-        <Button variant="light" style={{marginLeft:"10px",marginTop:"-210px"}}><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5ZM12.3067 8H10V17H16V15.0787H12.3067V8Z" fill="#40C4FF"></path></svg></span>&nbsp;Create Lesson</Button>&nbsp;
-        <Button variant="light" style={{marginLeft:"10px",marginTop:"-210px"}}><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.5533 13.6323C13.1712 14.0976 12.6561 14.3302 12.0081 14.3302C11.3601 14.3302 10.845 14.1017 10.4629 13.6448C10.0807 13.1796 9.88964 12.4817 9.88964 11.5513C9.88964 10.6291 10.0807 9.93957 10.4629 9.48264C10.845 9.02572 11.3601 8.79726 12.0081 8.79726C12.6561 8.79726 13.1712 9.02987 13.5533 9.4951C13.9438 9.95203 14.139 10.6374 14.139 11.5513C14.139 12.4734 13.9438 13.1671 13.5533 13.6323Z" fill="#0DC29B"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3C3.89543 3 3 3.89543 3 5V19C3 20.1045 3.89543 21 5 21H19C20.1046 21 21 20.1045 21 19V5C21 3.89543 20.1046 3 19 3H5ZM13.1546 17.3085C13.5201 17.7073 13.948 18.0645 14.4381 18.3802L15.9958 17.2462C15.6718 16.972 15.3436 16.6688 15.0113 16.3365C14.7665 16.0978 14.5577 15.832 14.385 15.5391C15.0391 15.166 15.5428 14.6426 15.8961 13.9688C16.2616 13.2876 16.4444 12.4817 16.4444 11.5513C16.4444 10.6291 16.2616 9.82741 15.8961 9.14618C15.5389 8.46495 15.028 7.94157 14.3633 7.57603C13.707 7.20218 12.922 7.01526 12.0081 7.01526C11.0943 7.01526 10.305 7.20218 9.64041 7.57603C8.9758 7.94157 8.46072 8.46495 8.09518 9.14618C7.72964 9.82741 7.54688 10.6291 7.54688 11.5513C7.54688 12.4817 7.72549 13.2876 8.08272 13.9688C8.44826 14.65 8.96334 15.1776 9.62795 15.5514C10.3009 15.9253 11.0943 16.1122 12.0081 16.1122C12.0912 16.1122 12.1731 16.1106 12.2541 16.1075C12.5049 16.5269 12.805 16.9272 13.1546 17.3085Z" fill="#0DC29B"></path></svg></span>&nbsp;Create Quiz</Button>&nbsp;
+        <Button variant="light" style={{marginLeft:"10px",marginTop:"-180px"}}><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5ZM12.3067 8H10V17H16V15.0787H12.3067V8Z" fill="#40C4FF"></path></svg></span>&nbsp;Create Lesson</Button>&nbsp;
+        <Button variant="light" style={{marginLeft:"10px",marginTop:"-180px"}}><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13.5533 13.6323C13.1712 14.0976 12.6561 14.3302 12.0081 14.3302C11.3601 14.3302 10.845 14.1017 10.4629 13.6448C10.0807 13.1796 9.88964 12.4817 9.88964 11.5513C9.88964 10.6291 10.0807 9.93957 10.4629 9.48264C10.845 9.02572 11.3601 8.79726 12.0081 8.79726C12.6561 8.79726 13.1712 9.02987 13.5533 9.4951C13.9438 9.95203 14.139 10.6374 14.139 11.5513C14.139 12.4734 13.9438 13.1671 13.5533 13.6323Z" fill="#0DC29B"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M5 3C3.89543 3 3 3.89543 3 5V19C3 20.1045 3.89543 21 5 21H19C20.1046 21 21 20.1045 21 19V5C21 3.89543 20.1046 3 19 3H5ZM13.1546 17.3085C13.5201 17.7073 13.948 18.0645 14.4381 18.3802L15.9958 17.2462C15.6718 16.972 15.3436 16.6688 15.0113 16.3365C14.7665 16.0978 14.5577 15.832 14.385 15.5391C15.0391 15.166 15.5428 14.6426 15.8961 13.9688C16.2616 13.2876 16.4444 12.4817 16.4444 11.5513C16.4444 10.6291 16.2616 9.82741 15.8961 9.14618C15.5389 8.46495 15.028 7.94157 14.3633 7.57603C13.707 7.20218 12.922 7.01526 12.0081 7.01526C11.0943 7.01526 10.305 7.20218 9.64041 7.57603C8.9758 7.94157 8.46072 8.46495 8.09518 9.14618C7.72964 9.82741 7.54688 10.6291 7.54688 11.5513C7.54688 12.4817 7.72549 13.2876 8.08272 13.9688C8.44826 14.65 8.96334 15.1776 9.62795 15.5514C10.3009 15.9253 11.0943 16.1122 12.0081 16.1122C12.0912 16.1122 12.1731 16.1106 12.2541 16.1075C12.5049 16.5269 12.805 16.9272 13.1546 17.3085Z" fill="#0DC29B"></path></svg></span>&nbsp;Create Quiz</Button>&nbsp;
 
 
         </div>
@@ -646,9 +646,9 @@ onClick={handleToggler}
                   contentEditable="false"
                   className="fg-group-title"
                 >
-                  27092022
+                  Untitled
                 </div>
-                <div>&nbsp;(1)</div>
+                <div>&nbsp;(0)</div>
               </div>
             </span>
           </div>
@@ -790,7 +790,7 @@ onClick={handleToggler}
                         className="styles_text__1i9zK styles_text--size-4__2JzMz styles_font_lato__1qqvD dark-blue-1"
                         style={{ fontWeight: "normal" }}
                       >
-                        TEST 27092022
+                        TEST 
                       </span>
                     </div>
                     <div>
